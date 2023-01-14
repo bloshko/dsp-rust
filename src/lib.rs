@@ -6,7 +6,3 @@ pub fn get_string_with_prefix(prefix: String) -> String {
     return formatted_string
 }
 
-fn main() {
-    let str = get_string_with_prefix(String::from("12"));
-    println!("{}", str)
-}
